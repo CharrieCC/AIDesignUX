@@ -739,6 +739,13 @@ body[data-menu-open] .nav__hamburger .icon-close { display: block; }
   margin-bottom: 1.25rem;
   background: var(--bg-soft);
 }
+.work-card__preview img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 .work-card--narrow .work-card__preview { aspect-ratio: 4 / 5; }
 .work-card--full .work-card__preview { aspect-ratio: 16 / 7; }
 
@@ -1399,6 +1406,13 @@ body[data-menu-open] .nav__hamburger .icon-close { display: block; }
   margin: 0 0 clamp(3rem, 6vw, 5rem);
   border: 1px solid var(--glass-border);
   box-shadow: 0 30px 60px -20px rgba(30, 42, 46, 0.2);
+}
+.case-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 @media (max-width: 640px) {
   .case-image { aspect-ratio: 4 / 3; border-radius: var(--radius); }
